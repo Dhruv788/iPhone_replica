@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(52, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+h4{
+    color: white;
+    font-weight: 300;
+    line-height: 50px;
+    margin-left: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+h4:hover{
+    color: rgb(201, 201, 201);
+}
+#centent{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(14, 14, 14);
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_mediumtall.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+#centent h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#centent h3{
+    color: rgb(249, 245, 245);
+    font-size: 30px;
+    font-weight: 300;
+}
+#lin1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#lin1 button{
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+#lin1 button:hover{
+    background-color: rgb(0, 0, 139);
+    cursor: pointer;
+}
+#lin1 button:nth-child(2){
+    background-color: royalblue;
+    color: black;
+}
+#lin1 button:nth-child(2):hover{
+    background-color: rgb(211, 211, 211);
+}
